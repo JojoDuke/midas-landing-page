@@ -1,0 +1,27 @@
+.waitlistBtn {
+  align-items: center;
+  background-color: #FDD511;
+  border: 0;
+  border-radius: 100px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  justify-content: center;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 4px 30px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.waitlistBtn:hover,
+.waitlistBtn:focus { 
+  background-color: #ffe563;
+  color: #ffffff;
+}
