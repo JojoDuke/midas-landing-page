@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className='App'>
       {/* NAVBAR */}
-      <AppBar position="fixed" color="transparent" elevation="0">
+      <AppBar position="fixed" color="transparent" elevation={0}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between", alignItems:"center", }}>
           <Image 
             src="/midasLogo.png" 
