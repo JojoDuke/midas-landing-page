@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <AppBar position="fixed" color="transparent" elevation={4}>
+    <AppBar position="fixed" color="transparent" elevation={0}>
         <Toolbar sx={{ display: "flex", justifyContent: "space-between", alignItems:"center", marginX:"150px", }}>
           <Image 
             src="/midasLogo.png" 
