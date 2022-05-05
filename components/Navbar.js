@@ -8,7 +8,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <AppBar position="fixed" color="transparent" elevation={4}>
-        <Toolbar sx={{ display: "flex", justifyContent: "space-between", alignItems:"center", }}>
+        <Toolbar sx={{ display: "flex", justifyContent: "space-between", alignItems:"center", marginX:"150px", }}>
           <Image 
             src="/midasLogo.png" 
             width={100}
@@ -16,7 +16,7 @@ const Navbar = () => {
             style={{ cursor:'pointer' }} />
 
 
-          <div style={{ display: "flex", gap:"20px", justifyContent: "space-between", alignItems:"center", fontWeight:700, color: "#000000", }}>
+          <div style={{ display: "flex", gap:"20px", justifyContent: "space-between", alignItems:"center", fontWeight:700, color: "#000000", fontSize: "19px", }}>
             <Link href="/"><a>Home</a></Link>
             <Link href="/"><a>About</a></Link>
             <Link href="/"><a>FAQ</a></Link>
