@@ -14,7 +14,9 @@ const Hero = () => {
         <button className={styles.waitlistBtn}>Join the waitlist</button>
       </div>
       <div className={styles.heroRight}>
-        <h3>New</h3>
+        <div className={styles.yellowCircle}>
+          
+        </div>
       </div>
     </div>
   )

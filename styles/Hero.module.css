@@ -2,7 +2,8 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-    padding: 30px 160px;
+    justify-content: space-between;
+    padding: 30px 170px;
 }
 
 .heroLeft{
@@ -20,6 +21,17 @@
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+/*--------------------------------------------*/
+
+
+.yellowCircle{
+    background-color: #FDD511;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
 
 /*--------------------------------------------*/
 
