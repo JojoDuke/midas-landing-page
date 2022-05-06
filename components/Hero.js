@@ -16,11 +16,14 @@ const Hero = () => {
         <button className={styles.waitlistBtn}>Join the waitlist</button>
       </div>
       <div className={styles.heroRight}>
-        <div className={styles.yellowCircle}/>
+        <div className={styles.yellowCircle}>
+        
+        </div>
         <Image 
-            src="/app_preview.png" 
-            width={100}
-            height={40} />
+            src="/app_preview.png"
+            className={styles.appPreview} 
+            width={400}
+            height={600} />
       </div>
     </div>
   )
