@@ -1,0 +1,16 @@
+.dividerText{
+    background-color: #FFF8DA;
+    padding: 20px 0px;
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.dividerText h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.dividerText h2{
+    font-weight: 500;
+    font-size: 20px;
+}
