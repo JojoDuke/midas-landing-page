@@ -9,10 +9,34 @@ const MainSection = () => {
         </div>
         <div className={styles.mainDiv}>
           <div className={styles.featuresSection}>
-            <div className={styles.iconOne}>
-              <h2>Shop online from some of the <br/> largest global retailers </h2>
-              <h3>Make orders and purchases from Amazon, Best Buy, <br/> Alibaba, Gamestop and many more without <br/> the hassle.</h3>
-              <h1>Nope</h1>
+            <div className={styles.iconsDiv}>
+              <div>
+                <h2>Shop online from some of the <br/> largest global retailers </h2>
+                <h3>Make orders and purchases from Amazon, Best Buy, <br/> Alibaba, Gamestop and many more without <br/> the hassle.</h3>
+              </div>
+              <div>
+                <h1>Nope</h1>
+              </div>
+            </div>
+
+            <div className={styles.iconsDivFlipped}>
+              <div>
+                <h2>Pay for all your online subscriptions <br/> and monthly services </h2>
+                <h3>Enjoy Netflix, Disney+, Spotify and other <br/> subscription based services all by yourself, <br/> no strings attached.</h3>
+              </div>
+              <div>
+                <h1>Nope</h1>
+              </div>
+            </div>
+
+            <div className={styles.iconsDiv}>
+              <div>
+                <h2>Purchase items wherever <br/> credit cards are accepted </h2>
+                <h3>miCards are accepted online on 100+ websites. <br/> Ready to use wherever <br/> and whenever you need it.</h3>
+              </div>
+              <div>
+                <h1>Nope</h1>
+              </div>
             </div>
           </div>
         </div>

@@ -1,3 +1,16 @@
+.mainDiv{ 
+    padding: 20px 170px;
+}
+
+.featuresSection{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* ------------------------------------------ */
+
+
 .dividerText{
     background-color: #FFF8DA;
     padding: 20px 0px;
@@ -13,4 +26,30 @@
 .dividerText h2{
     font-weight: 500;
     font-size: 20px;
+}
+
+
+.iconsDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}.iconsDiv h3{
+    color: #979797;
+    font-weight: 700;
+}.iconsDiv h2{
+    font-weight: 800;
+}
+
+
+.iconsDivFlipped{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}.iconsDivFlipped h2{
+    font-weight: 800;
+}.iconsDivFlipped h3{
+    color: #979797;
+    font-weight: 700;
 }
