@@ -40,6 +40,23 @@ const MainSection = () => {
             </div>
           </div>
         </div>
+
+        <div className={styles.dividerText}>
+            <h1>Stay in charge of your money</h1>
+            <h2>Have full control of where and how your money is spent</h2>
+        </div>
+        <div className={styles.sicDiv}>
+
+        </div>
+
+        <div className={styles.dividerText}>
+          <h1>Midas is safe and secure</h1>
+          <h2>Make online payments with 100% security.</h2>
+        </div>
+
+        <div className={styles.dividerText}>
+          <h1>Frequently Asked Questions</h1>
+        </div>
     </div>
   )
 }
