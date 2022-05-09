@@ -12,6 +12,7 @@ const MainSection = () => {
             <div className={styles.iconOne}>
               <h2>Shop online from some of the <br/> largest global retailers </h2>
               <h3>Make orders and purchases from Amazon, Best Buy, <br/> Alibaba, Gamestop and many more without <br/> the hassle.</h3>
+              <h1>Nope</h1>
             </div>
           </div>
         </div>
