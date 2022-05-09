@@ -39,6 +39,7 @@
     font-weight: 700;
 }.iconsDiv h2{
     font-weight: 800;
+    font-size: 35px;
 }
 
 
@@ -49,6 +50,7 @@
     justify-content: space-between;
 }.iconsDivFlipped h2{
     font-weight: 800;
+    font-size: 35px;
 }.iconsDivFlipped h3{
     color: #979797;
     font-weight: 700;
