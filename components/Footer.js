@@ -4,14 +4,17 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className={stlyes.footerDiv}>
-        <div>
+    <div className={styles.footerDiv}>
+        <div className={styles.logoDiv}>
         <Image 
               src="/midasLogo.png" 
               width={100}
               height={40} />
+
+        <div className={styles.bar}/>
+        <h2>Socials</h2>
         </div>
-        <div>
+        <div className={styles.copyright}>
             <h3>Copyright © 2022 Midas.</h3>
         </div>
     </div>

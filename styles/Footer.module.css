@@ -1,0 +1,21 @@
+.footerDiv{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.logoDiv{
+    display: flex;
+    align-items: center;
+}
+
+.bar{
+
+}
+
+.copyright{
+
+}

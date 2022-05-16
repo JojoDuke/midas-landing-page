@@ -1,3 +1,4 @@
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import MainSection from '../components/MainSection'
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div className='App'>
       <Hero/>
       <MainSection/>
+      <Footer/>
     </div>
   )
 }
