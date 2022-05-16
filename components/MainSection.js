@@ -1,5 +1,7 @@
 import styles from '../styles/MainSection.module.css'
 import Image from 'next/image'
+import Footer from './Footer';
+import FAQs from './FAQs';
 
 const MainSection = () => {
   return (
