@@ -55,3 +55,10 @@
     color: #979797;
     font-weight: 700;
 }
+
+.securityDiv{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}

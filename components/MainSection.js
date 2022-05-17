@@ -68,6 +68,22 @@ const MainSection = () => {
           <h1>Midas is safe and secure</h1>
           <h2>Make online payments with 100% security.</h2>
         </div>
+        <div className={styles.securityDiv}>
+          <div>
+            <h2>Image</h2>
+            <h3>We use best-in-class security and <br/> compliance practices to keep your money <br/> safe and personal data private.</h3>
+          </div>
+
+          <div>
+            <h2>Image</h2>
+            <h3>All payment and personal information is <br/> encrypted end-to-end using SSL 256-bit <br/> encryption.</h3>
+          </div>
+
+          <div>
+            <h2>Image</h2>
+            <h3>Keep all your personal and <br/> and financial information protected and secure <br/> from internet frauds and scammers</h3>
+          </div>
+        </div>
 
         <div className={styles.dividerText}>
           <h1>Frequently Asked Questions</h1>
