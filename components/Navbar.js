@@ -44,7 +44,6 @@ const Navbar = (props) => {
 
             <div style={{ display: "flex", gap:"20px", justifyContent: "space-between", alignItems:"center", fontWeight:700, color: "#000000", fontSize: "19px", }}>
               <Link href="/"><a>Home</a></Link>
-              <Link href="/"><a>About</a></Link>
               <Link href="/"><a>FAQ</a></Link>
               <Link href="/"><a>Contact Us</a></Link>
               <button className={styles.waitlistBtn}>Join waitlist</button>
