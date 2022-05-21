@@ -48,7 +48,7 @@
     justify-content: center;
     min-width: 0px;
     overflow: hidden;
-    padding: 4px 30px;
+    padding: 15px 30px;
     text-align: center;
     touch-action: manipulation;
     transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
