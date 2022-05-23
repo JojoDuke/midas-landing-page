@@ -89,6 +89,14 @@ const MainSection = () => {
         <div className={styles.dividerText}>
           <h1>Frequently Asked Questions</h1>
         </div>
+        <FAQs/>
+
+        <div className={styles.ctaDiv}>
+          <h1>Midas is coming soon!</h1>
+          <h3>Join the waitlist now to be notified <br/> as soon as its ready</h3>
+
+          <button className={styles.waitlistBtnWhite}>Join the waitlist</button>
+        </div>
     </div>
   )
 }

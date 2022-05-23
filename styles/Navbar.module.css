@@ -20,8 +20,9 @@
   vertical-align: middle;
 }
 
-.waitlistBtn:hover,
-.waitlistBtn:focus { 
+.waitlistBtn:hover { 
   background-color: #ffe563;
   color: #ffffff;
 }
+
+/* ----- MOBILE VIEWS ----- */

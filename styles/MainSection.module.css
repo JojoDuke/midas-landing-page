@@ -59,13 +59,48 @@
 /* ------------------------------------------ */
 
 
-.sicDiv{
-    background-color: grey;
-    width: 1200px;
-    height: 400px;
-    border-radius: 10px;
-    margin: auto auto;
+.ctaDiv{
+    background-color: #FDD511;
+    padding: 50px 0px;
+    text-align: center;
 }
+
+.ctaDiv h1{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.ctaDiv h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.waitlistBtnWhite {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 100px;
+    color: #FDD511;
+    cursor: pointer;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    justify-content: center;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 15px 30px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .waitlistBtnWhite:hover { 
+    background-color: #fceda1;
+    color: #ffffff;
+  }
 
 
 /* ------------------------------------------ */

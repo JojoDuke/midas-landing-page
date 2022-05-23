@@ -25,7 +25,7 @@ const FAQs = () => {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
               incididunt ut labore et dolore magna aliqua. Elementu sagittis vitae et leo duis ut.
-              Ut tortor pretium viverra suspendisse potenti.
+              Ut tortor pretium viverra suspendisse poteti.
             </p>
           </div>
         </div>
