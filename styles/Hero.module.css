@@ -65,5 +65,12 @@
 
   /* ----- MOBILE VIEWS ----- */
   @media screen and (max-width: 576px) {
-      
+    .heroDiv{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+    }
   }
