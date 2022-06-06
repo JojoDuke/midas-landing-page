@@ -24,10 +24,6 @@ const Navbar = (props) => {
   
   ElevationScroll.propTypes = {
     children: PropTypes.element.isRequired,
-    /**
-     * Injected by the documentation to work in an iframe.
-     * You won't need it on your project.
-     */
     window: PropTypes.func,
   };
 
@@ -40,6 +36,14 @@ const Navbar = (props) => {
               width={100}
               height={40}
               style={{ cursor:'pointer' }} />
+
+              <button 
+                className={styles.navbarToggler}
+                type='button'
+                data-toggle='collapse'
+                data-target=''>
+                
+              </button>
 
 
             <div style={{ display: "flex", gap:"20px", justifyContent: "space-between", alignItems:"center", fontWeight:700, color: "#000000", fontSize: "19px", }}>
